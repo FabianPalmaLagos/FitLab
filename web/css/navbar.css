@@ -1,0 +1,52 @@
+/* navbar css*/
+.sticky-nav{
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0px;
+    padding: 10px;
+    z-index: 1;
+    -webkit-align-self: auto;
+    -ms-flex-item-align: auto;
+    -ms-grid-row-align: auto;
+    align-self: auto;
+    -webkit-box-ordinal-group: 1;
+    -webkit-order: 0;
+    -ms-flex-order: 0;
+    order: 0;
+    background-color: rgb(66, 61, 61);
+}
+
+
+
+.d-flex .btn-dark {
+    background-color: #06b1cf;
+    color: white;
+    border-radius: 5px;
+    padding: .5rem 1.5rem;
+    font-size: 1.2rem;
+}
+
+.d-flex .btn-dark:hover {
+    color: white;
+    background-color: #3ccde7 ;
+    
+}
+
+.container-fluid .nav-link{
+    color: white;
+    line-height: 25px;
+    font-size: 1.5rem;
+    font-weight: 500;
+    
+}
+
+.container-fluid .nav-link:hover{
+    color: #b1b4bd;
+}
+
+.nav-h1{
+    color: white;
+    line-height: 25px;
+    font-size: 3rem;
+    font-weight: 500;
+}
